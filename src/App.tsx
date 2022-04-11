@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Timer from './components/Timer';
 
 const Button = styled.button`
   color: red;
@@ -8,7 +9,7 @@ const Button = styled.button`
 function App() {
   return (
     <div className="App">
-      <Button>hi</Button>
+      <Timer/>
     </div>
   );
 }
